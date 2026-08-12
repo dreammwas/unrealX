@@ -1,0 +1,1 @@
+The Android runtime package does not include a prebuilt Rust executable because Android ABI/API compatibility must be verified by the maintainer on target hardware. This crate is an optional offline validator/state utility source.
