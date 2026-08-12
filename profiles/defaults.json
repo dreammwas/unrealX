@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "profiles": {
+    "realistic": {"visual":"natural","frame_strategy":"balanced","adaptive_quality":true,"thermal_policy":"safe"},
+    "cinematic": {"visual":"cinematic","frame_strategy":"quality_first","adaptive_quality":true,"thermal_policy":"safe"},
+    "ultra": {"visual":"natural","frame_strategy":"quality_first","adaptive_quality":true,"thermal_policy":"safe"},
+    "balanced": {"visual":"natural","frame_strategy":"balanced","adaptive_quality":true,"thermal_policy":"safe"},
+    "performance": {"visual":"natural","frame_strategy":"stability_first","adaptive_quality":true,"thermal_policy":"safe"},
+    "battery": {"visual":"natural","frame_strategy":"performance_first","adaptive_quality":true,"thermal_policy":"safe"}
+  }
+}
