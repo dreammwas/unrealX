@@ -31,6 +31,29 @@
 
 <p align="center">
   <a href="#overview">Overview</a> •
+
+## ✦ Visual Identity
+
+### ◇ System View 1
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealX</td></tr>
+<tr><td>02</td><td>Adaptive Visual Fidelity Engine</td></tr>
+<tr><td>03</td><td>REALISTIC WHEN POSSIBLE</td></tr>
+<tr><td>04</td><td>PERFORMANCE WHEN NEEDED</td></tr>
+<tr><td>05</td><td>SAFETY ALWAYS</td></tr>
+</tbody></table>
+
+
+> A restrained, premium system aesthetic: clean typography, structured data, subtle status indicators, and readable diagrams — no noisy gaming RGB or decorative clutter.
+
+## ✦ GitHub / Mobile Rendering
+
+> **README visual system**
+> This release uses native GitHub Markdown tables, compact status cards, headings, and structured lists instead of ASCII/box-drawing diagrams. The layout is designed to remain readable on GitHub mobile, desktop, and repository viewers.
+
+> Architecture and system diagrams are kept inside fenced code blocks so GitHub preserves their spacing and alignment on desktop and mobile screens.
+
   <a href="#architecture">Architecture</a> •
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
@@ -38,7 +61,9 @@
   <a href="#contributing">Contributing</a>
 </p>
 
----
+
+`────────────────────────────────────────────`
+
 
 # `unrealX` — Android Graphics Intelligence
 
@@ -46,16 +71,15 @@
 
 It is built to replace the traditional "FPS booster" mindset with a capability-driven architecture:
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                            unrealX v1.0.0.0-r3                              │
-├──────────────────────────────────────────────────────────────────────────────┤
-│ DETECT → CLASSIFY → VALIDATE → BACKUP → APPLY → VERIFY → ADAPT → ROLLBACK  │
-├──────────────────────────────────────────────────────────────────────────────┤
-│ Hardware-aware      GPU-aware        Kernel-aware       Thermal-aware        │
-│ Game-profile aware  WebUI-driven     Recovery-first    Zero-placebo        │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+### ◇ System View 2
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealX v1.0.0.0-r3</td></tr>
+<tr><td>02</td><td>DETECT to CLASSIFY to VALIDATE to BACKUP to APPLY to VERIFY to ADAPT to ROLLBACK</td></tr>
+<tr><td>03</td><td>Hardware-aware GPU-aware Kernel-aware Thermal-aware</td></tr>
+<tr><td>04</td><td>Game-profile aware WebUI-driven Recovery-first Zero-placebo</td></tr>
+</tbody></table>
+
 
 The central engineering rule is:
 
@@ -63,14 +87,18 @@ The central engineering rule is:
 
 unrealX is deliberately conservative. When a capability is missing, unknown, blocked, or unsupported, the framework does not fake success.
 
-```text
-SUPPORTED  ──► VALIDATE ──► APPLY ──► VERIFY
-UNSUPPORTED ───────────────────────────────► SKIP
-UNKNOWN    ───────────────────────────────► NO CHANGE
-BLOCKED    ───────────────────────────────► NO CHANGE
-```
+### ◇ System View 3
 
----
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>SUPPORTED -- VALIDATE -- APPLY -- VERIFY</td></tr>
+<tr><td>02</td><td>UNSUPPORTED ------------------------------- SKIP</td></tr>
+<tr><td>03</td><td>UNKNOWN ------------------------------- NO CHANGE</td></tr>
+<tr><td>04</td><td>BLOCKED ------------------------------- NO CHANGE</td></tr>
+</tbody></table>
+
+
+`────────────────────────────────────────────`
+
 
 # Table of Contents
 
@@ -100,35 +128,36 @@ BLOCKED    ───────────────────────
 - [Support](#support)
 - [License](#license)
 
----
+
+`────────────────────────────────────────────`
+
 
 # Project Identity
 
-```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                  unrealX                                     ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║ Version          : 1.0.0.0-r3                                                ║
-║ Project Type     : Adaptive Visual Fidelity Engine                           ║
-║ Platform         : Android                                                    ║
-║ Distribution     : Root Module                                                ║
-║                                                                              ║
-║ Author           : DREAM_WAS                                                  ║
-║ GitHub           : github.com/dreammwas                                       ║
-║ Telegram         : t.me/uwEspresso                                            ║
-║                                                                              ║
-║ Design           : Pixel-inspired / AMOLED / Minimal / Responsive             ║
-║ Philosophy       : Detect-first / Validate-first / Recovery-first             ║
-║ Network          : None for core operation                                    ║
-║ Telemetry        : None                                                       ║
-║ Overclocking     : No                                                         ║
-║ Undervolting     : No                                                         ║
-║ Thermal bypass   : No                                                         ║
-║ Anti-cheat bypass: No                                                         ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+### ◇ System View 4
 
----
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealX</td></tr>
+<tr><td>02</td><td>Version : 1.0.0.0-r3</td></tr>
+<tr><td>03</td><td>Project Type : Adaptive Visual Fidelity Engine</td></tr>
+<tr><td>04</td><td>Platform : Android</td></tr>
+<tr><td>05</td><td>Distribution : Root Module</td></tr>
+<tr><td>06</td><td>Author : DREAM_WAS</td></tr>
+<tr><td>07</td><td>GitHub : github.com/dreammwas</td></tr>
+<tr><td>08</td><td>Telegram : t.me/uwEspresso</td></tr>
+<tr><td>09</td><td>Design : Pixel-inspired / AMOLED / Minimal / Responsive</td></tr>
+<tr><td>10</td><td>Philosophy : Detect-first / Validate-first / Recovery-first</td></tr>
+<tr><td>11</td><td>Network : None for core operation</td></tr>
+<tr><td>12</td><td>Telemetry : None</td></tr>
+<tr><td>13</td><td>Overclocking : No</td></tr>
+<tr><td>14</td><td>Undervolting : No</td></tr>
+<tr><td>15</td><td>Thermal bypass : No</td></tr>
+<tr><td>16</td><td>Anti-cheat bypass: No</td></tr>
+</tbody></table>
+
+
+`────────────────────────────────────────────`
+
 
 # Overview
 
@@ -136,45 +165,27 @@ Traditional Android performance modules often rely on long lists of unrelated pr
 
 unrealX takes a different approach.
 
-```text
-                           ┌──────────────────┐
-                           │   Android Device │
-                           └────────┬─────────┘
-                                    │
-                           ┌────────▼─────────┐
-                           │ Detection Engine │
-                           └────────┬─────────┘
-                                    │
-                     ┌──────────────▼──────────────┐
-                     │ Capability Classification   │
-                     │ SUPPORTED / UNKNOWN / ...   │
-                     └──────────────┬──────────────┘
-                                    │
-                     ┌──────────────▼──────────────┐
-                     │   Profile Resolution       │
-                     │ BASE → GPU → DEVICE → GAME │
-                     └──────────────┬──────────────┘
-                                    │
-                     ┌──────────────▼──────────────┐
-                     │ Validation + Safety Gates   │
-                     └──────────────┬──────────────┘
-                                    │
-                     ┌──────────────▼──────────────┐
-                     │ Apply / Verify / Observe    │
-                     └──────────────┬──────────────┘
-                                    │
-                     ┌──────────────▼──────────────┐
-                     │ Adaptive Runtime Controller │
-                     └──────────────┬──────────────┘
-                                    │
-                     ┌──────────────▼──────────────┐
-                     │ Rollback / Recovery Layer   │
-                     └─────────────────────────────┘
-```
+### ◇ System View 5
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Android Device</td></tr>
+<tr><td>02</td><td>Detection Engine</td></tr>
+<tr><td>03</td><td>Capability Classification</td></tr>
+<tr><td>04</td><td>SUPPORTED / UNKNOWN / ...</td></tr>
+<tr><td>05</td><td>Profile Resolution</td></tr>
+<tr><td>06</td><td>BASE to GPU to DEVICE to GAME</td></tr>
+<tr><td>07</td><td>Validation + Safety Gates</td></tr>
+<tr><td>08</td><td>Apply / Verify / Observe</td></tr>
+<tr><td>09</td><td>Adaptive Runtime Controller</td></tr>
+<tr><td>10</td><td>Rollback / Recovery Layer</td></tr>
+</tbody></table>
+
 
 The result is intended to be a framework rather than a random collection of tweaks.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Why unrealX
 
@@ -193,46 +204,43 @@ The result is intended to be a framework rather than a random collection of twea
 
 ## What unrealX refuses to fake
 
-```text
-No real game shader?
-→ Do not pretend to create one.
+### ◇ System View 6
 
-No hardware feature?
-→ Do not pretend to enable it.
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>No real game shader?</td></tr>
+<tr><td>02</td><td>to Do not pretend to create one.</td></tr>
+<tr><td>03</td><td>No hardware feature?</td></tr>
+<tr><td>04</td><td>to Do not pretend to enable it.</td></tr>
+<tr><td>05</td><td>No kernel interface?</td></tr>
+<tr><td>06</td><td>to Do not write to a guessed node.</td></tr>
+<tr><td>07</td><td>No measurable FPS source?</td></tr>
+<tr><td>08</td><td>to Do not invent FPS.</td></tr>
+<tr><td>09</td><td>Unknown capability?</td></tr>
+<tr><td>10</td><td>to Do nothing.</td></tr>
+</tbody></table>
 
-No kernel interface?
-→ Do not write to a guessed node.
-
-No measurable FPS source?
-→ Do not invent FPS.
-
-Unknown capability?
-→ Do nothing.
-```
 
 This principle is part of the architecture, not just documentation.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Features
 
 ## Visual Profiles
 
-```text
-┌──────────────┬───────────────────────────────────────────────────────────────┐
-│ REALISTIC    │ Natural color, balanced contrast, conservative tuning        │
-├──────────────┼───────────────────────────────────────────────────────────────┤
-│ CINEMATIC    │ Presentation-focused profile with controlled visual balance  │
-├──────────────┼───────────────────────────────────────────────────────────────┤
-│ ULTRA        │ Higher quality where device/runtime capability permits       │
-├──────────────┼───────────────────────────────────────────────────────────────┤
-│ BALANCED     │ Visual quality + sustained performance                       │
-├──────────────┼───────────────────────────────────────────────────────────────┤
-│ PERFORMANCE  │ Frame-time stability and sustained workload priority         │
-├──────────────┼───────────────────────────────────────────────────────────────┤
-│ BATTERY      │ Lower optional workload and efficiency priority              │
-└──────────────┴───────────────────────────────────────────────────────────────┘
-```
+### ◇ System View 7
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>REALISTIC</td><td>Natural color, balanced contrast, conservative tuning</td></tr>
+<tr><td>CINEMATIC</td><td>Presentation-focused profile with controlled visual balance</td></tr>
+<tr><td>ULTRA</td><td>Higher quality where device/runtime capability permits</td></tr>
+<tr><td>BALANCED</td><td>Visual quality + sustained performance</td></tr>
+<tr><td>PERFORMANCE</td><td>Frame-time stability and sustained workload priority</td></tr>
+<tr><td>BATTERY</td><td>Lower optional workload and efficiency priority</td></tr>
+</tbody></table>
+
 
 ## Hardware Awareness
 
@@ -254,124 +262,115 @@ unrealX can inspect, where the platform exposes the information:
 
 GPU architecture support is structured for:
 
-```text
-Qualcomm Adreno
-ARM Mali
-Samsung Xclipse
-PowerVR
-Other / Unknown
-```
+### ◇ System View 8
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Qualcomm Adreno</td></tr>
+<tr><td>02</td><td>ARM Mali</td></tr>
+<tr><td>03</td><td>Samsung Xclipse</td></tr>
+<tr><td>04</td><td>PowerVR</td></tr>
+<tr><td>05</td><td>Other / Unknown</td></tr>
+</tbody></table>
+
 
 Unknown hardware remains conservative.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Architecture
 
 unrealX is modular by design.
 
-```text
-unrealX/
-│
-├── module lifecycle
-│   ├── customize.sh
-│   ├── post-fs-data.sh
-│   ├── service.sh
-│   ├── boot-completed.sh
-│   ├── action.sh
-│   └── uninstall.sh
-│
-├── detection
-│   ├── device.sh
-│   ├── gpu.sh
-│   ├── kernel.sh
-│   ├── root_manager.sh
-│   └── thermal.sh
-│
-├── core
-│   ├── common.sh
-│   ├── config.sh
-│   └── webstate.sh
-│
-├── graphics
-│   ├── water.sh
-│   ├── sky.sh
-│   ├── shadow.sh
-│   ├── vegetation.sh
-│   ├── texture.sh
-│   └── color.sh
-│
-├── runtime
-│   ├── adaptive.sh
-│   └── game-detector.sh
-│
-├── kernel
-│   ├── capabilities.sh
-│   └── interface.sh
-│
-├── safety
-│   ├── validate.sh
-│   └── permissions.sh
-│
-├── recovery
-│   ├── backup.sh
-│   └── rollback.sh
-│
-├── profiles
-│   └── defaults.json
-│
-├── bin
-│   └── unrealX
-│
-├── native
-│   └── unrealx_probe.c
-│
-├── rust
-│   ├── Cargo.toml
-│   └── src/
-│
-├── webroot
-│   ├── index.html
-│   ├── css/
-│   ├── js/
-│   ├── components/
-│   └── assets/
-│
-├── assets
-│   ├── banner.png
-│   ├── icon.png
-│   ├── emoji/
-│   └── emoji-original.zip
-│
-├── tests
-└── docs
-```
+### ◇ System View 9
 
----
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealX/</td></tr>
+<tr><td>02</td><td>module lifecycle</td></tr>
+<tr><td>03</td><td>customize.sh</td></tr>
+<tr><td>04</td><td>post-fs-data.sh</td></tr>
+<tr><td>05</td><td>service.sh</td></tr>
+<tr><td>06</td><td>boot-completed.sh</td></tr>
+<tr><td>07</td><td>action.sh</td></tr>
+<tr><td>08</td><td>uninstall.sh</td></tr>
+<tr><td>09</td><td>detection</td></tr>
+<tr><td>10</td><td>device.sh</td></tr>
+<tr><td>11</td><td>gpu.sh</td></tr>
+<tr><td>12</td><td>kernel.sh</td></tr>
+<tr><td>13</td><td>root_manager.sh</td></tr>
+<tr><td>14</td><td>thermal.sh</td></tr>
+<tr><td>15</td><td>core</td></tr>
+<tr><td>16</td><td>common.sh</td></tr>
+<tr><td>17</td><td>config.sh</td></tr>
+<tr><td>18</td><td>webstate.sh</td></tr>
+<tr><td>19</td><td>graphics</td></tr>
+<tr><td>20</td><td>water.sh</td></tr>
+<tr><td>21</td><td>sky.sh</td></tr>
+<tr><td>22</td><td>shadow.sh</td></tr>
+<tr><td>23</td><td>vegetation.sh</td></tr>
+<tr><td>24</td><td>texture.sh</td></tr>
+<tr><td>25</td><td>color.sh</td></tr>
+<tr><td>26</td><td>runtime</td></tr>
+<tr><td>27</td><td>adaptive.sh</td></tr>
+<tr><td>28</td><td>game-detector.sh</td></tr>
+<tr><td>29</td><td>kernel</td></tr>
+<tr><td>30</td><td>capabilities.sh</td></tr>
+<tr><td>31</td><td>interface.sh</td></tr>
+<tr><td>32</td><td>safety</td></tr>
+<tr><td>33</td><td>validate.sh</td></tr>
+<tr><td>34</td><td>permissions.sh</td></tr>
+<tr><td>35</td><td>recovery</td></tr>
+<tr><td>36</td><td>backup.sh</td></tr>
+<tr><td>37</td><td>rollback.sh</td></tr>
+<tr><td>38</td><td>profiles</td></tr>
+<tr><td>39</td><td>defaults.json</td></tr>
+<tr><td>40</td><td>bin</td></tr>
+<tr><td>41</td><td>unrealX</td></tr>
+<tr><td>42</td><td>native</td></tr>
+<tr><td>43</td><td>unrealx_probe.c</td></tr>
+<tr><td>44</td><td>rust</td></tr>
+<tr><td>45</td><td>Cargo.toml</td></tr>
+<tr><td>46</td><td>src/</td></tr>
+<tr><td>47</td><td>webroot</td></tr>
+<tr><td>48</td><td>index.html</td></tr>
+<tr><td>49</td><td>css/</td></tr>
+<tr><td>50</td><td>js/</td></tr>
+<tr><td>51</td><td>components/</td></tr>
+<tr><td>52</td><td>assets/</td></tr>
+<tr><td>53</td><td>assets</td></tr>
+<tr><td>54</td><td>banner.png</td></tr>
+<tr><td>55</td><td>icon.png</td></tr>
+<tr><td>56</td><td>emoji/</td></tr>
+<tr><td>57</td><td>emoji-original.zip</td></tr>
+<tr><td>58</td><td>tests</td></tr>
+<tr><td>59</td><td>docs</td></tr>
+</tbody></table>
+
+
+`────────────────────────────────────────────`
+
 
 # Detection Pipeline
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                         UNREALX DETECTION PIPELINE                           │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│ Root Manager ─┐                                                            │
-│               │                                                            │
-│ Device ───────┼──► Unified Device State ──► Capability Matrix               │
-│               │                                  │                           │
-│ GPU ──────────┤                                  ▼                           │
-│               │                          Safe Profile Resolver               │
-│ Kernel ───────┤                                  │                           │
-│               │                                  ▼                           │
-│ Thermal ──────┘                         Runtime Policy                       │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+### ◇ System View 10
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>UNREALX DETECTION PIPELINE</td></tr>
+<tr><td>02</td><td>Root Manager</td></tr>
+<tr><td>03</td><td>Device ------- Unified Device State -- Capability Matrix</td></tr>
+<tr><td>04</td><td>GPU ----------+</td></tr>
+<tr><td>05</td><td>Safe Profile Resolver</td></tr>
+<tr><td>06</td><td>Kernel</td></tr>
+<tr><td>07</td><td>Thermal ------+ Runtime Policy</td></tr>
+</tbody></table>
+
 
 Every subsystem reports facts rather than assumptions.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Capability Matrix
 
@@ -379,75 +378,73 @@ A central goal of unrealX is making support explicit.
 
 Conceptually:
 
-```text
-┌──────────────────┬───────────────┬──────────────────┬───────────────────────┐
-│ FEATURE          │ GPU / DEVICE  │ ANDROID / KERNEL │ STATE                 │
-├──────────────────┼───────────────┼──────────────────┼───────────────────────┤
-│ Texture Control  │ Detected      │ Exposed?         │ SUPPORTED/UNKNOWN     │
-│ Filtering        │ Detected      │ Exposed?         │ SUPPORTED/UNKNOWN     │
-│ Shadow Control   │ Game-specific │ Game exposes?   │ UNSUPPORTED/UNKNOWN   │
-│ Water Control    │ Game-specific │ Game exposes?   │ UNSUPPORTED/UNKNOWN   │
-│ GPU Devfreq      │ Driver-based  │ Node exists?     │ SUPPORTED/UNKNOWN     │
-│ Thermal Interface│ Device-based  │ Node exists?     │ SUPPORTED/UNKNOWN     │
-│ Scheduler Control│ Kernel-based  │ Node exists?     │ SUPPORTED/UNKNOWN     │
-└──────────────────┴───────────────┴──────────────────┴───────────────────────┘
-```
+### ◇ System View 11
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>FEATURE</td><td>GPU / DEVICE · ANDROID / KERNEL · STATE</td></tr>
+<tr><td>Texture Control</td><td>Detected · Exposed? · SUPPORTED/UNKNOWN</td></tr>
+<tr><td>Filtering</td><td>Detected · Exposed? · SUPPORTED/UNKNOWN</td></tr>
+<tr><td>Shadow Control</td><td>Game-specific · Game exposes? · UNSUPPORTED/UNKNOWN</td></tr>
+<tr><td>Water Control</td><td>Game-specific · Game exposes? · UNSUPPORTED/UNKNOWN</td></tr>
+<tr><td>GPU Devfreq</td><td>Driver-based · Node exists? · SUPPORTED/UNKNOWN</td></tr>
+<tr><td>Thermal Interface</td><td>Device-based · Node exists? · SUPPORTED/UNKNOWN</td></tr>
+<tr><td>Scheduler Control</td><td>Kernel-based · Node exists? · SUPPORTED/UNKNOWN</td></tr>
+</tbody></table>
+
 
 ### State semantics
 
-```text
-SUPPORTED
-    Verified and safe to use.
+### ◇ System View 12
 
-UNSUPPORTED
-    Capability does not exist or is not exposed.
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>SUPPORTED</td></tr>
+<tr><td>02</td><td>Verified and safe to use.</td></tr>
+<tr><td>03</td><td>UNSUPPORTED</td></tr>
+<tr><td>04</td><td>Capability does not exist or is not exposed.</td></tr>
+<tr><td>05</td><td>UNKNOWN</td></tr>
+<tr><td>06</td><td>Detection is inconclusive.</td></tr>
+<tr><td>07</td><td>UNKNOWN behaves exactly like UNSUPPORTED.</td></tr>
+<tr><td>08</td><td>BLOCKED</td></tr>
+<tr><td>09</td><td>Capability exists but cannot safely be used</td></tr>
+<tr><td>10</td><td>in the current runtime/security environment.</td></tr>
+</tbody></table>
 
-UNKNOWN
-    Detection is inconclusive.
-    UNKNOWN behaves exactly like UNSUPPORTED.
 
-BLOCKED
-    Capability exists but cannot safely be used
-    in the current runtime/security environment.
-```
+`────────────────────────────────────────────`
 
----
 
 # Graphics Fidelity Engine
 
 The graphics layer is split into independent engines.
 
-```text
-                    ┌─────────────────────────────┐
-                    │     Visual Fidelity Core    │
-                    └──────────────┬──────────────┘
-                                   │
-        ┌──────────────┬───────────┼───────────┬──────────────┐
-        ▼              ▼           ▼           ▼              ▼
-      Water           Sky        Shadow      Texture      Vegetation
-        │              │           │           │              │
-        └──────────────┴───────────┴───────────┴──────────────┘
-                                   │
-                                   ▼
-                            Color / Sharpening
-                                   │
-                                   ▼
-                              Frame Pacing
-```
+### ◇ System View 13
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Visual Fidelity Core</td></tr>
+<tr><td>02</td><td>Water Sky Shadow Texture Vegetation</td></tr>
+<tr><td>03</td><td>Color / Sharpening</td></tr>
+<tr><td>04</td><td>Frame Pacing</td></tr>
+</tbody></table>
+
 
 Every engine follows the same conceptual contract:
 
-```text
-detect()
-validate()
-apply()
-verify()
-rollback()
-```
+### ◇ System View 14
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>detect()</td></tr>
+<tr><td>02</td><td>validate()</td></tr>
+<tr><td>03</td><td>apply()</td></tr>
+<tr><td>04</td><td>verify()</td></tr>
+<tr><td>05</td><td>rollback()</td></tr>
+</tbody></table>
+
 
 A feature that cannot satisfy that contract remains disabled.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Realistic Water Strategy
 
@@ -464,21 +461,22 @@ Where the target runtime genuinely exposes compatible controls, it can reason ab
 
 The desired result is:
 
-```text
-Natural transparency
-      +
-Controlled reflections
-      +
-Reduced aliasing
-      +
-Balanced specular response
-      =
-Natural-looking water
-```
+### ◇ System View 15
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Natural transparency</td></tr>
+<tr><td>02</td><td>Controlled reflections</td></tr>
+<tr><td>03</td><td>Reduced aliasing</td></tr>
+<tr><td>04</td><td>Balanced specular response</td></tr>
+<tr><td>05</td><td>Natural-looking water</td></tr>
+</tbody></table>
+
 
 No fake "blue water" system is used to simulate realism.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Sky Strategy
 
@@ -492,15 +490,20 @@ The sky engine targets:
 
 Profiles:
 
-```text
-SKY_NATURAL
-SKY_CINEMATIC
-SKY_NEUTRAL
-```
+### ◇ System View 16
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>SKY_NATURAL</td></tr>
+<tr><td>02</td><td>SKY_CINEMATIC</td></tr>
+<tr><td>03</td><td>SKY_NEUTRAL</td></tr>
+</tbody></table>
+
 
 The framework does not claim to create atmospheric rendering capabilities that the application does not expose.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Shadow Strategy
 
@@ -514,44 +517,57 @@ Shadow goals include:
 
 Device tiers:
 
-```text
-LOW → MEDIUM → HIGH → ULTRA
-```
+### ◇ System View 17
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>LOW to MEDIUM to HIGH to ULTRA</td></tr>
+</tbody></table>
+
 
 Maximum is never forced blindly.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Vegetation Strategy
 
 The vegetation engine is intended to improve presentation where the application exposes compatible controls:
 
-```text
-Texture filtering
-      ↓
-Reduced shimmering
-      ↓
-Better visual stability
-      ↓
-Appropriate LOD
-      ↓
-Controlled color
-```
+### ◇ System View 18
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Texture filtering</td></tr>
+<tr><td>02</td><td>then</td></tr>
+<tr><td>03</td><td>Reduced shimmering</td></tr>
+<tr><td>04</td><td>then</td></tr>
+<tr><td>05</td><td>Better visual stability</td></tr>
+<tr><td>06</td><td>then</td></tr>
+<tr><td>07</td><td>Appropriate LOD</td></tr>
+<tr><td>08</td><td>then</td></tr>
+<tr><td>09</td><td>Controlled color</td></tr>
+</tbody></table>
+
 
 Game assets are not modified automatically.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Color Science
 
 The default philosophy is natural rather than oversaturated.
 
-```text
-NATURAL
-REALISTIC
-CINEMATIC
-VIBRANT
-```
+### ◇ System View 19
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>NATURAL</td></tr>
+<tr><td>02</td><td>REALISTIC</td></tr>
+<tr><td>03</td><td>CINEMATIC</td></tr>
+<tr><td>04</td><td>VIBRANT</td></tr>
+</tbody></table>
+
 
 The engine avoids excessive:
 
@@ -561,176 +577,164 @@ The engine avoids excessive:
 - crushed contrast
 - artificial color shifts
 
----
+
+`────────────────────────────────────────────`
+
 
 # Adaptive Intelligence Engine
 
 The adaptive engine is designed around sustained performance and frame-time stability.
 
-```text
-                             ┌──────────┐
-                             │   IDLE   │
-                             └────┬─────┘
-                                  │
-                                  ▼
-                             ┌──────────┐
-                             │ NORMAL   │
-                             └────┬─────┘
-                                  │
-                           sustained workload
-                                  │
-                                  ▼
-                           ┌─────────────┐
-                           │  HIGH_LOAD  │
-                           └──────┬──────┘
-                                  │
-                            thermal pressure
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │THERMAL_PRESSURE │
-                         └────────┬────────┘
-                                  │
-                              critical
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │ CRITICAL_THERMAL│
-                         └────────┬────────┘
-                                  │
-                                cool
-                                  │
-                                  ▼
-                           ┌─────────────┐
-                           │  RECOVERY   │
-                           └─────────────┘
-```
+### ◇ System View 20
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>IDLE</td></tr>
+<tr><td>02</td><td>NORMAL</td></tr>
+<tr><td>03</td><td>sustained workload</td></tr>
+<tr><td>04</td><td>HIGH_LOAD</td></tr>
+<tr><td>05</td><td>thermal pressure</td></tr>
+<tr><td>06</td><td>THERMAL_PRESSURE</td></tr>
+<tr><td>07</td><td>critical</td></tr>
+<tr><td>08</td><td>CRITICAL_THERMAL</td></tr>
+<tr><td>09</td><td>cool</td></tr>
+<tr><td>10</td><td>RECOVERY</td></tr>
+</tbody></table>
+
 
 The engine uses cooldown/hysteresis concepts to avoid:
 
-```text
-QUALITY ↑
-QUALITY ↓
-QUALITY ↑
-QUALITY ↓
-QUALITY ↑
-```
+### ◇ System View 21
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>QUALITY ↑</td></tr>
+<tr><td>02</td><td>QUALITY then</td></tr>
+<tr><td>03</td><td>QUALITY ↑</td></tr>
+<tr><td>04</td><td>QUALITY then</td></tr>
+<tr><td>05</td><td>QUALITY ↑</td></tr>
+</tbody></table>
+
 
 during boundary conditions.
 
 The priority is:
 
-```text
-frame-time consistency
-        >
-peak FPS
-```
+### ◇ System View 22
 
----
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>frame-time consistency</td></tr>
+<tr><td>02</td><td>&gt;</td></tr>
+<tr><td>03</td><td>peak FPS</td></tr>
+</tbody></table>
+
+
+`────────────────────────────────────────────`
+
 
 # Frame-Pacing Philosophy
 
 A stable rendering cadence is usually more useful than a large but unstable peak.
 
-```text
-GOOD
+### ◇ System View 23
 
-16.7ms
-16.8ms
-16.6ms
-16.7ms
-16.7ms
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>GOOD</td></tr>
+<tr><td>02</td><td>16.7ms</td></tr>
+<tr><td>03</td><td>16.8ms</td></tr>
+<tr><td>04</td><td>16.6ms</td></tr>
+<tr><td>05</td><td>16.7ms</td></tr>
+<tr><td>06</td><td>16.7ms</td></tr>
+<tr><td>07</td><td>BAD</td></tr>
+<tr><td>08</td><td>11ms</td></tr>
+<tr><td>09</td><td>18ms</td></tr>
+<tr><td>10</td><td>35ms</td></tr>
+<tr><td>11</td><td>12ms</td></tr>
+<tr><td>12</td><td>27ms</td></tr>
+<tr><td>13</td><td>14ms</td></tr>
+</tbody></table>
 
-
-BAD
-
-11ms
-18ms
-35ms
-12ms
-27ms
-14ms
-```
 
 Where frame-time data is not safely observable, unrealX does not fabricate it.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Thermal Intelligence
 
 Thermal behavior is a safety boundary.
 
-```text
-┌──────────────┐
-│    NORMAL    │
-└──────┬───────┘
-       ▼
-┌──────────────┐
-│     WARM     │
-└──────┬───────┘
-       ▼
-┌──────────────┐
-│     HOT      │
-└──────┬───────┘
-       ▼
-┌──────────────┐
-│   CRITICAL   │
-└──────┬───────┘
-       ▼
-┌──────────────┐
-│   RECOVERY   │
-└──────────────┘
-```
+### ◇ System View 24
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>NORMAL</td></tr>
+<tr><td>02</td><td>WARM</td></tr>
+<tr><td>03</td><td>HOT</td></tr>
+<tr><td>04</td><td>CRITICAL</td></tr>
+<tr><td>05</td><td>RECOVERY</td></tr>
+</tbody></table>
+
 
 unrealX does **not**:
 
-```text
-✗ Disable thermal protection
-✗ Raise critical thermal limits
-✗ Force unsafe voltage
-✗ Force unsafe frequency
-✗ Bypass throttling
-✗ Rewrite unknown thermal nodes
-```
+### ◇ System View 25
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>✗ Disable thermal protection</td></tr>
+<tr><td>02</td><td>✗ Raise critical thermal limits</td></tr>
+<tr><td>03</td><td>✗ Force unsafe voltage</td></tr>
+<tr><td>04</td><td>✗ Force unsafe frequency</td></tr>
+<tr><td>05</td><td>✗ Bypass throttling</td></tr>
+<tr><td>06</td><td>✗ Rewrite unknown thermal nodes</td></tr>
+</tbody></table>
+
 
 Instead, it can reduce optional workload when thermal pressure is detected.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Game Profile Engine
 
 Game profiles can be layered conceptually:
 
-```text
-BASE PROFILE
-     ↓
-GPU PROFILE
-     ↓
-DEVICE PROFILE
-     ↓
-GAME PROFILE
-     ↓
-USER OVERRIDE
-     ↓
-RUNTIME ADAPTIVE OVERRIDE
-```
+### ◇ System View 26
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>BASE PROFILE</td></tr>
+<tr><td>02</td><td>then</td></tr>
+<tr><td>03</td><td>GPU PROFILE</td></tr>
+<tr><td>04</td><td>then</td></tr>
+<tr><td>05</td><td>DEVICE PROFILE</td></tr>
+<tr><td>06</td><td>then</td></tr>
+<tr><td>07</td><td>GAME PROFILE</td></tr>
+<tr><td>08</td><td>then</td></tr>
+<tr><td>09</td><td>USER OVERRIDE</td></tr>
+<tr><td>10</td><td>then</td></tr>
+<tr><td>11</td><td>RUNTIME ADAPTIVE OVERRIDE</td></tr>
+</tbody></table>
+
 
 Example:
 
-```text
-ExampleGame
-│
-├── Preset: REALISTIC
-├── Auto Apply: ON
-├── Thermal Policy: ADAPTIVE
-├── Frame Strategy: STABILITY_FIRST
-├── Compatibility Mode: STANDARD
-└── Graphics Policy: CAPABILITY_FIRST
-```
+### ◇ System View 27
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>ExampleGame</td></tr>
+<tr><td>02</td><td>Preset: REALISTIC</td></tr>
+<tr><td>03</td><td>Auto Apply: ON</td></tr>
+<tr><td>04</td><td>Thermal Policy: ADAPTIVE</td></tr>
+<tr><td>05</td><td>Frame Strategy: STABILITY_FIRST</td></tr>
+<tr><td>06</td><td>Compatibility Mode: STANDARD</td></tr>
+<tr><td>07</td><td>Graphics Policy: CAPABILITY_FIRST</td></tr>
+</tbody></table>
+
 
 A game profile never overrides global settings blindly.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Root Manager Compatibility
 
@@ -749,47 +753,39 @@ Supported environments include:
 
 The architecture avoids making every subsystem depend on a manager-specific path.
 
-```text
-                 ┌──────────────────────────┐
-                 │  Root Manager Detector   │
-                 └────────────┬─────────────┘
-                              │
-             ┌────────────────┼─────────────────┐
-             ▼                ▼                 ▼
-          Magisk          KernelSU            APatch
-             │                │                 │
-             └────────────────┼─────────────────┘
-                              ▼
-                    Unified Root State
-```
+### ◇ System View 28
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Root Manager Detector</td></tr>
+<tr><td>02</td><td>Magisk KernelSU APatch</td></tr>
+<tr><td>03</td><td>Unified Root State</td></tr>
+</tbody></table>
+
 
 Unknown managers never become a reason to run unsafe logic.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Premium WebUI
 
 unrealX includes a premium AMOLED-oriented WebUI.
 
-```text
-┌───────────────────────────────────────────────────────────────┐
-│ unrealX                                      v1.0.0.0        │
-├───────────────────────────────────────────────────────────────┤
-│ DEVICE STATUS                                                 │
-│                                                               │
-│ GPU          CPU          RAM          THERMAL        ROOT    │
-│ Adreno       ...          ...          NORMAL         ACTIVE  │
-├───────────────────────────────────────────────────────────────┤
-│ CURRENT GAME                                                  │
-│ ExampleGame                                                   │
-│                                                               │
-│ PROFILE: REALISTIC       ADAPTIVE: NORMAL                    │
-├───────────────────────────────────────────────────────────────┤
-│ REALISTIC │ CINEMATIC │ ULTRA │ BALANCED │ PERFORMANCE       │
-├───────────────────────────────────────────────────────────────┤
-│ HOME │ GAMES │ PROFILES │ PERFORMANCE │ THERMAL │ TOOLS      │
-└───────────────────────────────────────────────────────────────┘
-```
+### ◇ System View 29
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealX v1.0.0.0</td></tr>
+<tr><td>02</td><td>DEVICE STATUS</td></tr>
+<tr><td>03</td><td>GPU CPU RAM THERMAL ROOT</td></tr>
+<tr><td>04</td><td>Adreno ... ... NORMAL ACTIVE</td></tr>
+<tr><td>05</td><td>CURRENT GAME</td></tr>
+<tr><td>06</td><td>ExampleGame</td></tr>
+<tr><td>07</td><td>PROFILE: REALISTIC ADAPTIVE: NORMAL</td></tr>
+<tr><td>REALISTIC</td><td>CINEMATIC · ULTRA · BALANCED · PERFORMANCE</td></tr>
+<tr><td>HOME</td><td>GAMES · PROFILES · PERFORMANCE · THERMAL · TOOLS</td></tr>
+</tbody></table>
+
 
 ### UI goals
 
@@ -805,70 +801,90 @@ unrealX includes a premium AMOLED-oriented WebUI.
 
 No RGB-heavy gamer aesthetic is used.
 
----
+
+`────────────────────────────────────────────`
+
 
 # WebUI State Model
 
 The WebUI consumes a shared state model:
 
-```text
-unrealXState
-│
-├── device
-├── gpu
-├── kernel
-├── root
-├── thermal
-├── game
-├── profile
-├── adaptive
-├── graphics
-├── capabilities
-└── errors
-```
+### ◇ System View 30
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealXState</td></tr>
+<tr><td>02</td><td>device</td></tr>
+<tr><td>03</td><td>gpu</td></tr>
+<tr><td>04</td><td>kernel</td></tr>
+<tr><td>05</td><td>root</td></tr>
+<tr><td>06</td><td>thermal</td></tr>
+<tr><td>07</td><td>game</td></tr>
+<tr><td>08</td><td>profile</td></tr>
+<tr><td>09</td><td>adaptive</td></tr>
+<tr><td>10</td><td>graphics</td></tr>
+<tr><td>11</td><td>capabilities</td></tr>
+<tr><td>12</td><td>errors</td></tr>
+</tbody></table>
+
 
 This reduces duplicated privileged queries and keeps the interface consistent with the runtime engine.
 
 If a value is unavailable:
 
-```text
-NOT AVAILABLE
-```
+### ◇ System View 31
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>NOT AVAILABLE</td></tr>
+</tbody></table>
+
 
 If a feature is unsupported:
 
-```text
-UNSUPPORTED
-```
+### ◇ System View 32
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>UNSUPPORTED</td></tr>
+</tbody></table>
+
 
 If detection is inconclusive:
 
-```text
-UNKNOWN
-```
+### ◇ System View 33
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>UNKNOWN</td></tr>
+</tbody></table>
+
 
 No fake "active" state is generated.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Custom Asset System
 
 The project accepts externally supplied branding assets.
 
-```text
-assets/
-├── banner.png
-├── icon.png
-├── emoji/
-│   ├── supplied animations
-│   ├── static fallbacks
-│   └── registry.json
-└── emoji-original.zip
-```
+### ◇ System View 34
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>assets/</td></tr>
+<tr><td>02</td><td>banner.png</td></tr>
+<tr><td>03</td><td>icon.png</td></tr>
+<tr><td>04</td><td>emoji/</td></tr>
+<tr><td>05</td><td>supplied animations</td></tr>
+<tr><td>06</td><td>static fallbacks</td></tr>
+<tr><td>07</td><td>registry.json</td></tr>
+<tr><td>08</td><td>emoji-original.zip</td></tr>
+</tbody></table>
+
 
 The project preserves the original custom asset package and uses it as the source for UI status visuals.
 
----
+
+`────────────────────────────────────────────`
+
 
 # CLI and Diagnostics
 
@@ -904,25 +920,27 @@ su -c unrealX rollback
 
 The diagnostic engine is designed to inspect:
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│ unrealX Doctor                                              │
-├─────────────────────────────────────────────────────────────┤
-│ [OK] Root manager                                           │
-│ [OK] Module state                                           │
-│ [OK] Permissions                                            │
-│ [OK] GPU detection                                          │
-│ [OK] Configuration                                          │
-│ [OK] WebUI state                                            │
-│ [WARN] Unsupported capability                               │
-│ [WARN] Missing optional interface                           │
-│ [ERROR] Invalid configuration                               │
-└─────────────────────────────────────────────────────────────┘
-```
+### ◇ System View 35
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealX Doctor</td></tr>
+<tr><td>02</td><td>[OK] Root manager</td></tr>
+<tr><td>03</td><td>[OK] Module state</td></tr>
+<tr><td>04</td><td>[OK] Permissions</td></tr>
+<tr><td>05</td><td>[OK] GPU detection</td></tr>
+<tr><td>06</td><td>[OK] Configuration</td></tr>
+<tr><td>07</td><td>[OK] WebUI state</td></tr>
+<tr><td>08</td><td>[WARN] Unsupported capability</td></tr>
+<tr><td>09</td><td>[WARN] Missing optional interface</td></tr>
+<tr><td>10</td><td>[ERROR] Invalid configuration</td></tr>
+</tbody></table>
+
 
 Diagnostics should explain what can be fixed rather than simply reporting failure.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Safety
 
@@ -932,17 +950,23 @@ Safety is part of the runtime architecture.
 
 Create:
 
-```text
-/data/adb/unrealX_disable
-```
+### ◇ System View 36
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>/data/adb/unrealX_disable</td></tr>
+</tbody></table>
+
 
 When this file exists:
 
-```text
-Optional performance intervention
-        ↓
-        STOP
-```
+### ◇ System View 37
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Optional performance intervention</td></tr>
+<tr><td>02</td><td>then</td></tr>
+<tr><td>03</td><td>STOP</td></tr>
+</tbody></table>
+
 
 The framework prioritizes boot safety and recovery.
 
@@ -973,7 +997,9 @@ su -c unrealX rollback
 
 The recovery path is designed to remain usable even when the WebUI is unavailable.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Kernel Interface Layer
 
@@ -993,40 +1019,46 @@ It checks for:
 
 Capability state:
 
-```text
-SUPPORTED
-UNSUPPORTED
-UNKNOWN
-BLOCKED
-```
+### ◇ System View 38
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>SUPPORTED</td></tr>
+<tr><td>02</td><td>UNSUPPORTED</td></tr>
+<tr><td>03</td><td>UNKNOWN</td></tr>
+<tr><td>04</td><td>BLOCKED</td></tr>
+</tbody></table>
+
 
 Only verified interfaces are eligible for use.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Security
 
 unrealX deliberately avoids high-risk behavior.
 
-```text
-┌─────────────────────────────────────────────────────────────────────────┐
-│                            SECURITY MODEL                               │
-├─────────────────────────────────────────────────────────────────────────┤
-│ No telemetry                                                            │
-│ No hidden network service                                               │
-│ No remote shell                                                         │
-│ No credential collection                                                │
-│ No dynamic executable download                                          │
-│ No secret backdoor                                                      │
-│ No anti-cheat bypass                                                    │
-│ No DRM bypass                                                           │
-│ No memory hiding                                                        │
-│ No security-detection circumvention                                     │
-│ No unsafe kernel memory manipulation                                    │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+### ◇ System View 39
 
----
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>SECURITY MODEL</td></tr>
+<tr><td>02</td><td>No telemetry</td></tr>
+<tr><td>03</td><td>No hidden network service</td></tr>
+<tr><td>04</td><td>No remote shell</td></tr>
+<tr><td>05</td><td>No credential collection</td></tr>
+<tr><td>06</td><td>No dynamic executable download</td></tr>
+<tr><td>07</td><td>No secret backdoor</td></tr>
+<tr><td>08</td><td>No anti-cheat bypass</td></tr>
+<tr><td>09</td><td>No DRM bypass</td></tr>
+<tr><td>10</td><td>No memory hiding</td></tr>
+<tr><td>11</td><td>No security-detection circumvention</td></tr>
+<tr><td>12</td><td>No unsafe kernel memory manipulation</td></tr>
+</tbody></table>
+
+
+`────────────────────────────────────────────`
+
 
 # Configuration
 
@@ -1034,39 +1066,37 @@ Configuration is designed to be structured and validated.
 
 Conceptual configuration layers:
 
-```text
-global
-│
-├── hardware
-├── profiles
-├── games
-├── runtime
-├── thermal
-└── safety
-```
+### ◇ System View 40
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>global</td></tr>
+<tr><td>02</td><td>hardware</td></tr>
+<tr><td>03</td><td>profiles</td></tr>
+<tr><td>04</td><td>games</td></tr>
+<tr><td>05</td><td>runtime</td></tr>
+<tr><td>06</td><td>thermal</td></tr>
+<tr><td>07</td><td>safety</td></tr>
+</tbody></table>
+
 
 Validation pipeline:
 
-```text
-Configuration
-      │
-      ▼
-Schema Validation
-      │
- ┌────┴────┐
- │         │
-VALID    INVALID
- │         │
- ▼         ▼
-Load     Reject
- │         │
- ▼         ▼
-Apply   Previous Valid State
-```
+### ◇ System View 41
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Configuration</td></tr>
+<tr><td>02</td><td>Schema Validation</td></tr>
+<tr><td>03</td><td>VALID INVALID</td></tr>
+<tr><td>04</td><td>Load Reject</td></tr>
+<tr><td>05</td><td>Apply Previous Valid State</td></tr>
+</tbody></table>
+
 
 Malformed configuration must never become privileged behavior.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Installation
 
@@ -1095,7 +1125,9 @@ su -c unrealX doctor
 su -c unrealX status
 ```
 
----
+
+`────────────────────────────────────────────`
+
 
 # Usage
 
@@ -1147,7 +1179,9 @@ su -c unrealX safe-mode
 su -c unrealX rollback
 ```
 
----
+
+`────────────────────────────────────────────`
+
 
 # Benchmark Philosophy
 
@@ -1165,34 +1199,42 @@ Where safe observation is available, benchmark data can include:
 
 A measured optimization should follow:
 
-```text
-BASELINE
-   ↓
-CONTROLLED CHANGE
-   ↓
-REPEAT TEST
-   ↓
-COMPARE
-   ↓
-VERIFY
-   ↓
-REPORT
-```
+### ◇ System View 42
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>BASELINE</td></tr>
+<tr><td>02</td><td>then</td></tr>
+<tr><td>03</td><td>CONTROLLED CHANGE</td></tr>
+<tr><td>04</td><td>then</td></tr>
+<tr><td>05</td><td>REPEAT TEST</td></tr>
+<tr><td>06</td><td>then</td></tr>
+<tr><td>07</td><td>COMPARE</td></tr>
+<tr><td>08</td><td>then</td></tr>
+<tr><td>09</td><td>VERIFY</td></tr>
+<tr><td>10</td><td>then</td></tr>
+<tr><td>11</td><td>REPORT</td></tr>
+</tbody></table>
+
 
 The framework should not advertise:
 
-```text
-"2x FPS"
-"GPU unlocked"
-"RAM doubled"
-"zero heat"
-"real ray tracing"
-"console graphics"
-```
+### ◇ System View 43
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>&quot;2x FPS&quot;</td></tr>
+<tr><td>02</td><td>&quot;GPU unlocked&quot;</td></tr>
+<tr><td>03</td><td>&quot;RAM doubled&quot;</td></tr>
+<tr><td>04</td><td>&quot;zero heat&quot;</td></tr>
+<tr><td>05</td><td>&quot;real ray tracing&quot;</td></tr>
+<tr><td>06</td><td>&quot;console graphics&quot;</td></tr>
+</tbody></table>
+
 
 without reproducible evidence.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Limitations
 
@@ -1210,20 +1252,21 @@ A root module cannot universally invent:
 
 For game-specific rendering controls:
 
-```text
-Game exposes setting?
-      │
-   YES ──► Validate and use when safe
-      │
-    NO
-      │
-      ▼
-UNSUPPORTED → SKIP
-```
+### ◇ System View 44
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Game exposes setting?</td></tr>
+<tr><td>02</td><td>YES -- Validate and use when safe</td></tr>
+<tr><td>03</td><td>NO</td></tr>
+<tr><td>04</td><td>UNSUPPORTED to SKIP</td></tr>
+</tbody></table>
+
 
 This is intentional.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Performance Design
 
@@ -1231,201 +1274,199 @@ Idle overhead is treated as a feature.
 
 The runtime avoids:
 
-```text
-✗ busy loops
-✗ aggressive process polling
-✗ constant configuration writes
-✗ unnecessary daemons
-✗ repeated heavyweight hardware probing
-✗ excessive WebUI refreshes
-```
+### ◇ System View 45
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>✗ busy loops</td></tr>
+<tr><td>02</td><td>✗ aggressive process polling</td></tr>
+<tr><td>03</td><td>✗ constant configuration writes</td></tr>
+<tr><td>04</td><td>✗ unnecessary daemons</td></tr>
+<tr><td>05</td><td>✗ repeated heavyweight hardware probing</td></tr>
+<tr><td>06</td><td>✗ excessive WebUI refreshes</td></tr>
+</tbody></table>
+
 
 The preferred architecture is:
 
-```text
-EVENT / LOW-FREQUENCY SAMPLE
-              ↓
-         STATE CHANGE
-              ↓
-         POLICY UPDATE
-              ↓
-         WAIT / COOLDOWN
-```
+### ◇ System View 46
 
----
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>EVENT / LOW-FREQUENCY SAMPLE</td></tr>
+<tr><td>02</td><td>then</td></tr>
+<tr><td>03</td><td>STATE CHANGE</td></tr>
+<tr><td>04</td><td>then</td></tr>
+<tr><td>05</td><td>POLICY UPDATE</td></tr>
+<tr><td>06</td><td>then</td></tr>
+<tr><td>07</td><td>WAIT / COOLDOWN</td></tr>
+</tbody></table>
+
+
+`────────────────────────────────────────────`
+
 
 # Project Structure
 
-```text
-unrealX/
-├── module.prop
-├── customize.sh
-├── post-fs-data.sh
-├── service.sh
-├── boot-completed.sh
-├── action.sh
-├── uninstall.sh
-│
-├── bin/
-│   └── unrealX
-│
-├── core/
-│   ├── common.sh
-│   ├── config.sh
-│   └── webstate.sh
-│
-├── detection/
-│   ├── device.sh
-│   ├── gpu.sh
-│   ├── kernel.sh
-│   ├── root_manager.sh
-│   └── thermal.sh
-│
-├── graphics/
-│   ├── water.sh
-│   ├── sky.sh
-│   ├── shadow.sh
-│   ├── vegetation.sh
-│   ├── texture.sh
-│   └── color.sh
-│
-├── runtime/
-│   ├── adaptive.sh
-│   └── game-detector.sh
-│
-├── kernel/
-│   ├── capabilities.sh
-│   └── interface.sh
-│
-├── safety/
-│   ├── validate.sh
-│   └── permissions.sh
-│
-├── recovery/
-│   ├── backup.sh
-│   └── rollback.sh
-│
-├── profiles/
-│   └── defaults.json
-│
-├── native/
-│   └── unrealx_probe.c
-│
-├── rust/
-│   ├── Cargo.toml
-│   └── src/
-│
-├── webroot/
-│   ├── index.html
-│   ├── css/
-│   ├── js/
-│   ├── components/
-│   └── assets/
-│
-├── assets/
-│   ├── banner.png
-│   ├── icon.png
-│   ├── emoji/
-│   └── emoji-original.zip
-│
-├── tests/
-└── docs/
-```
+### ◇ System View 47
 
----
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealX/</td></tr>
+<tr><td>02</td><td>module.prop</td></tr>
+<tr><td>03</td><td>customize.sh</td></tr>
+<tr><td>04</td><td>post-fs-data.sh</td></tr>
+<tr><td>05</td><td>service.sh</td></tr>
+<tr><td>06</td><td>boot-completed.sh</td></tr>
+<tr><td>07</td><td>action.sh</td></tr>
+<tr><td>08</td><td>uninstall.sh</td></tr>
+<tr><td>09</td><td>bin/</td></tr>
+<tr><td>10</td><td>unrealX</td></tr>
+<tr><td>11</td><td>core/</td></tr>
+<tr><td>12</td><td>common.sh</td></tr>
+<tr><td>13</td><td>config.sh</td></tr>
+<tr><td>14</td><td>webstate.sh</td></tr>
+<tr><td>15</td><td>detection/</td></tr>
+<tr><td>16</td><td>device.sh</td></tr>
+<tr><td>17</td><td>gpu.sh</td></tr>
+<tr><td>18</td><td>kernel.sh</td></tr>
+<tr><td>19</td><td>root_manager.sh</td></tr>
+<tr><td>20</td><td>thermal.sh</td></tr>
+<tr><td>21</td><td>graphics/</td></tr>
+<tr><td>22</td><td>water.sh</td></tr>
+<tr><td>23</td><td>sky.sh</td></tr>
+<tr><td>24</td><td>shadow.sh</td></tr>
+<tr><td>25</td><td>vegetation.sh</td></tr>
+<tr><td>26</td><td>texture.sh</td></tr>
+<tr><td>27</td><td>color.sh</td></tr>
+<tr><td>28</td><td>runtime/</td></tr>
+<tr><td>29</td><td>adaptive.sh</td></tr>
+<tr><td>30</td><td>game-detector.sh</td></tr>
+<tr><td>31</td><td>kernel/</td></tr>
+<tr><td>32</td><td>capabilities.sh</td></tr>
+<tr><td>33</td><td>interface.sh</td></tr>
+<tr><td>34</td><td>safety/</td></tr>
+<tr><td>35</td><td>validate.sh</td></tr>
+<tr><td>36</td><td>permissions.sh</td></tr>
+<tr><td>37</td><td>recovery/</td></tr>
+<tr><td>38</td><td>backup.sh</td></tr>
+<tr><td>39</td><td>rollback.sh</td></tr>
+<tr><td>40</td><td>profiles/</td></tr>
+<tr><td>41</td><td>defaults.json</td></tr>
+<tr><td>42</td><td>native/</td></tr>
+<tr><td>43</td><td>unrealx_probe.c</td></tr>
+<tr><td>44</td><td>rust/</td></tr>
+<tr><td>45</td><td>Cargo.toml</td></tr>
+<tr><td>46</td><td>src/</td></tr>
+<tr><td>47</td><td>webroot/</td></tr>
+<tr><td>48</td><td>index.html</td></tr>
+<tr><td>49</td><td>css/</td></tr>
+<tr><td>50</td><td>js/</td></tr>
+<tr><td>51</td><td>components/</td></tr>
+<tr><td>52</td><td>assets/</td></tr>
+<tr><td>53</td><td>assets/</td></tr>
+<tr><td>54</td><td>banner.png</td></tr>
+<tr><td>55</td><td>icon.png</td></tr>
+<tr><td>56</td><td>emoji/</td></tr>
+<tr><td>57</td><td>emoji-original.zip</td></tr>
+<tr><td>58</td><td>tests/</td></tr>
+<tr><td>59</td><td>docs/</td></tr>
+</tbody></table>
+
+
+`────────────────────────────────────────────`
+
 
 # Development Principles
 
 Before adding an optimization:
 
-```text
-┌──────────────────────────────────────────────────────────────────────┐
-│ WHAT DOES IT CHANGE?                                                 │
-│                                                                      │
-│ WHY DOES IT HELP?                                                    │
-│                                                                      │
-│ WHICH DEVICES SUPPORT IT?                                            │
-│                                                                      │
-│ HOW IS SUPPORT DETECTED?                                             │
-│                                                                      │
-│ HOW IS THE RESULT VERIFIED?                                          │
-│                                                                      │
-│ HOW IS IT ROLLED BACK?                                               │
-└──────────────────────────────────────────────────────────────────────┘
-```
+### ◇ System View 48
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>WHAT DOES IT CHANGE?</td></tr>
+<tr><td>02</td><td>WHY DOES IT HELP?</td></tr>
+<tr><td>03</td><td>WHICH DEVICES SUPPORT IT?</td></tr>
+<tr><td>04</td><td>HOW IS SUPPORT DETECTED?</td></tr>
+<tr><td>05</td><td>HOW IS THE RESULT VERIFIED?</td></tr>
+<tr><td>06</td><td>HOW IS IT ROLLED BACK?</td></tr>
+</tbody></table>
+
 
 If these answers cannot be established:
 
-```text
-DO NOT IMPLEMENT THE TWEAK
-```
+### ◇ System View 49
 
----
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>DO NOT IMPLEMENT THE TWEAK</td></tr>
+</tbody></table>
+
+
+`────────────────────────────────────────────`
+
 
 # Release Quality Gate
 
 Every release should pass:
 
-```text
-╔══════════════════════════════════════════════════════════════════════╗
-║                        unrealX RELEASE GATE                         ║
-╠══════════════════════════════════════════════════════════════════════╣
-║ [PASS] Module metadata                                                ║
-║ [PASS] Lifecycle scripts                                              ║
-║ [PASS] Shell syntax                                                   ║
-║ [PASS] CLI                                                             ║
-║ [PASS] Configuration validation                                       ║
-║ [PASS] Root-manager detection                                         ║
-║ [PASS] GPU detection                                                   ║
-║ [PASS] Thermal detection                                               ║
-║ [PASS] Recovery path                                                   ║
-║ [PASS] WebUI entry point                                               ║
-║ [PASS] WebUI assets                                                    ║
-║ [PASS] Branding                                                        ║
-║ [PASS] Archive integrity                                               ║
-║ [PASS] Documentation                                                   ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+### ◇ System View 50
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealX RELEASE GATE</td></tr>
+<tr><td>02</td><td>[PASS] Module metadata</td></tr>
+<tr><td>03</td><td>[PASS] Lifecycle scripts</td></tr>
+<tr><td>04</td><td>[PASS] Shell syntax</td></tr>
+<tr><td>05</td><td>[PASS] CLI</td></tr>
+<tr><td>06</td><td>[PASS] Configuration validation</td></tr>
+<tr><td>07</td><td>[PASS] Root-manager detection</td></tr>
+<tr><td>08</td><td>[PASS] GPU detection</td></tr>
+<tr><td>09</td><td>[PASS] Thermal detection</td></tr>
+<tr><td>10</td><td>[PASS] Recovery path</td></tr>
+<tr><td>11</td><td>[PASS] WebUI entry point</td></tr>
+<tr><td>12</td><td>[PASS] WebUI assets</td></tr>
+<tr><td>13</td><td>[PASS] Branding</td></tr>
+<tr><td>14</td><td>[PASS] Archive integrity</td></tr>
+<tr><td>15</td><td>[PASS] Documentation</td></tr>
+</tbody></table>
+
 
 A release being installable does not imply every optional capability is available on every Android device.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Roadmap
 
-```text
-v1.x
-│
-├── More GPU capability matrices
-├── Improved device profiles
-├── More game profile adapters
-├── Expanded thermal hysteresis
-├── Improved runtime state reporting
-├── More WebUI diagnostics
-└── Better benchmark observability
-```
+### ◇ System View 51
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>v1.x</td></tr>
+<tr><td>02</td><td>More GPU capability matrices</td></tr>
+<tr><td>03</td><td>Improved device profiles</td></tr>
+<tr><td>04</td><td>More game profile adapters</td></tr>
+<tr><td>05</td><td>Expanded thermal hysteresis</td></tr>
+<tr><td>06</td><td>Improved runtime state reporting</td></tr>
+<tr><td>07</td><td>More WebUI diagnostics</td></tr>
+<tr><td>08</td><td>Better benchmark observability</td></tr>
+</tbody></table>
+
 
 Longer-term architecture can evolve toward:
 
-```text
-Hardware Capability Database
-          │
-          ▼
-Per-GPU Profile Resolver
-          │
-          ▼
-Per-Device Profile Resolver
-          │
-          ▼
-Per-Game Profile Resolver
-          │
-          ▼
-Measured Runtime Adaptation
-```
+### ◇ System View 52
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Hardware Capability Database</td></tr>
+<tr><td>02</td><td>Per-GPU Profile Resolver</td></tr>
+<tr><td>03</td><td>Per-Device Profile Resolver</td></tr>
+<tr><td>04</td><td>Per-Game Profile Resolver</td></tr>
+<tr><td>05</td><td>Measured Runtime Adaptation</td></tr>
+</tbody></table>
+
 
 Every new subsystem must preserve the same safety model.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Contributing
 
@@ -1443,25 +1484,30 @@ Good contributions should be:
 
 Please include:
 
-```text
-Problem
-↓
-Technical cause
-↓
-Supported devices
-↓
-Implementation
-↓
-Verification
-↓
-Rollback behavior
-↓
-Tests
-```
+### ◇ System View 53
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>Problem</td></tr>
+<tr><td>02</td><td>then</td></tr>
+<tr><td>03</td><td>Technical cause</td></tr>
+<tr><td>04</td><td>then</td></tr>
+<tr><td>05</td><td>Supported devices</td></tr>
+<tr><td>06</td><td>then</td></tr>
+<tr><td>07</td><td>Implementation</td></tr>
+<tr><td>08</td><td>then</td></tr>
+<tr><td>09</td><td>Verification</td></tr>
+<tr><td>10</td><td>then</td></tr>
+<tr><td>11</td><td>Rollback behavior</td></tr>
+<tr><td>12</td><td>then</td></tr>
+<tr><td>13</td><td>Tests</td></tr>
+</tbody></table>
+
 
 Pull requests that add generic "performance properties" without measurable technical justification should not be considered verified optimizations.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Support and Community
 
@@ -1485,23 +1531,27 @@ Pull requests that add generic "performance properties" without measurable techn
 - **Pull Requests:** https://github.com/dreammwas/unrealX/pulls
 - **Telegram:** https://t.me/uwEspresso
 
----
+
+`────────────────────────────────────────────`
+
 
 # Author
 
-```text
-╔══════════════════════════════════════════════════════════════════════╗
-║                            DREAM_WAS                                 ║
-╠══════════════════════════════════════════════════════════════════════╣
-║ GitHub   : github.com/dreammwas                                      ║
-║ Telegram : t.me/uwEspresso                                           ║
-║ Project  : unrealX                                                    ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+### ◇ System View 54
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>DREAM_WAS</td></tr>
+<tr><td>02</td><td>GitHub : github.com/dreammwas</td></tr>
+<tr><td>03</td><td>Telegram : t.me/uwEspresso</td></tr>
+<tr><td>04</td><td>Project : unrealX</td></tr>
+</tbody></table>
+
 
 All unrealX project documentation, release metadata and branding should credit **DREAM_WAS** and link to the official project/community resources.
 
----
+
+`────────────────────────────────────────────`
+
 
 # License
 
@@ -1509,34 +1559,35 @@ unrealX is open-source software licensed under the **Apache License 2.0**.
 
 See:
 
-```text
-LICENSE
-```
+### ◇ System View 55
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>LICENSE</td></tr>
+</tbody></table>
+
 
 for the complete license.
 
----
+
+`────────────────────────────────────────────`
+
 
 # Final Statement
 
-```text
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║                            unrealX                                   ║
-║                                                                      ║
-║      REALISTIC WHEN POSSIBLE. PERFORMANCE WHEN NEEDED.               ║
-║                         SAFETY ALWAYS.                               ║
-║                                                                      ║
-║  Detect what exists.                                                 ║
-║  Validate what is supported.                                         ║
-║  Apply only what can be verified.                                    ║
-║  Adapt when conditions change.                                       ║
-║  Roll back when something is unsafe.                                 ║
-║                                                                      ║
-║             NEVER SACRIFICE DEVICE SAFETY FOR QUALITY.              ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+### ◇ System View 56
+
+<table><thead><tr><th>unrealX architecture / state view</th><th>Details</th></tr></thead><tbody>
+<tr><td>01</td><td>unrealX</td></tr>
+<tr><td>02</td><td>REALISTIC WHEN POSSIBLE. PERFORMANCE WHEN NEEDED.</td></tr>
+<tr><td>03</td><td>SAFETY ALWAYS.</td></tr>
+<tr><td>04</td><td>Detect what exists.</td></tr>
+<tr><td>05</td><td>Validate what is supported.</td></tr>
+<tr><td>06</td><td>Apply only what can be verified.</td></tr>
+<tr><td>07</td><td>Adapt when conditions change.</td></tr>
+<tr><td>08</td><td>Roll back when something is unsafe.</td></tr>
+<tr><td>09</td><td>NEVER SACRIFICE DEVICE SAFETY FOR QUALITY.</td></tr>
+</tbody></table>
+
 
 <p align="center">
   <strong>unrealX v1.0.0.0-r3</strong><br>
