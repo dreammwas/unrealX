@@ -1,0 +1,6 @@
+# One entry per game. Use exact package name.
+# name=Example Game
+# package=com.example.game
+# profile=realistic
+# enabled=true
+# auto_apply=true
