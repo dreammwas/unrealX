@@ -1,0 +1,46 @@
+#!/system/bin/sh
+MODDIR=${0%/*}/..
+UX_MODDIR="$MODDIR"; export UX_MODDIR
+. "$MODDIR/core/common.sh"
+. "$MODDIR/core/config.sh"
+. "$MODDIR/core/webstate.sh"
+. "$MODDIR/detection/root_manager.sh" >/dev/null 2>&1 || true
+. "$MODDIR/detection/device.sh" >/dev/null 2>&1 || true
+. "$MODDIR/detection/gpu.sh" >/dev/null 2>&1 || true
+. "$MODDIR/detection/kernel.sh" >/dev/null 2>&1 || true
+. "$MODDIR/detection/thermal.sh" >/dev/null 2>&1 || true
+. "$MODDIR/kernel/interface.sh"
+. "$MODDIR/kernel/capabilities.sh"
+. "$MODDIR/safety/permissions.sh"
+. "$MODDIR/recovery/backup.sh"
+. "$MODDIR/recovery/rollback.sh"
+. "$MODDIR/runtime/adaptive.sh"
+
+usage(){ cat <<'EOF'
+unrealX v1.0.0.0
+Author: DREAM_WAS | github.com/dreammwas | t.me/uwEspresso
+Commands: status detect verify profile games logs rollback enable disable doctor safe-mode reset-safe-mode runtime benchmark
+EOF
+}
+read_conf(){ f="$1"; k="$2"; [ -r "$f" ] || return 0; awk -F= -v k="$k" '$1==k{sub(/^[^=]*=/,"");print;exit}' "$f"; }
+cmd_status(){
+  ux_init_dirs
+  echo "unrealX v1.0.0.0"
+  echo "Author: DREAM_WAS"
+  echo "Root: $(cat "$UX_STATE/root_manager" 2>/dev/null || echo UNKNOWN)"
+  echo "GPU: $(read_conf "$UX_STATE/gpu.conf" renderer)"
+  echo "Thermal: $(read_conf "$UX_STATE/thermal.conf" state)"
+  echo "Profile: $(ux_config_get profile realistic)"
+  echo "Adaptive: $(read_conf "$UX_STATE/adaptive.conf" state)"
+  echo "SafeMode: $(ux_config_get safe_mode false)"
+}
+cmd_detect(){ ux_init_dirs; "$MODDIR/detection/device.sh"; "$MODDIR/detection/gpu.sh"; "$MODDIR/detection/kernel.sh"; "$MODDIR/detection/thermal.sh"; root_manager_detect; [ -r "$UX_STATE/adaptive.conf" ] || printf 'state=SAFE_UNKNOWN\nsource=UNKNOWN\nlast_transition=0\nreason=UNKNOWN_NO_CHANGE\n' > "$UX_STATE/adaptive.conf"; ux_webstate_update || true; ux_log INFO 'detection complete'; }
+cmd_verify(){ ux_capability_matrix; ux_kernel_probe; "$MODDIR/safety/permissions.sh"; echo 'Verification complete. UNKNOWN/UNSUPPORTED capabilities remain disabled.'; }
+cmd_profile(){ p="$1"; case "$p" in realistic|cinematic|ultra|balanced|performance|battery) ux_backup_state; ux_config_set profile "$p"; ux_webstate_update || true; echo "Profile set: $p";; *) echo 'Unknown profile'; return 2;; esac; }
+cmd_games(){ [ -f "$UX_CONFIG/games.conf" ] && cat "$UX_CONFIG/games.conf" || echo 'No games configured.'; }
+cmd_logs(){ tail -n 200 "$UX_LOG_DIR/unrealX.log" 2>/dev/null || echo 'No logs.'; }
+cmd_doctor(){ echo 'unrealX Doctor'; echo "root=$(cat "$UX_STATE/root_manager" 2>/dev/null || echo UNKNOWN)"; echo "gpu=$(read_conf "$UX_STATE/gpu.conf" renderer)"; echo "thermal=$(read_conf "$UX_STATE/thermal.conf" state)"; echo "config_profile=$(ux_config_get profile realistic)"; [ -f "$MODDIR/webroot/index.html" ] && echo 'webui=OK' || echo 'webui=ERROR'; }
+cmd_runtime(){ ux_thermal_state "$(read_conf "$UX_STATE/thermal.conf" temp_millic)" >/dev/null 2>&1 || true; "$MODDIR/detection/thermal.sh"; ux_adaptive_step; }
+case "$1" in
+ status) cmd_status;; detect) cmd_detect;; verify) cmd_verify;; profile) cmd_profile "$2";; games) cmd_games;; logs) cmd_logs;; rollback) ux_rollback && echo 'Rollback complete.' || echo 'Rollback unavailable.';; enable) rm -f "$UX_DISABLE"; echo 'unrealX enabled.';; disable) touch "$UX_DISABLE"; echo 'unrealX disabled.';; doctor) cmd_doctor;; safe-mode) ux_config_set safe_mode true; touch "$UX_STATE/safe_mode"; ux_webstate_update || true; echo 'Safe mode enabled.';;
+ reset-safe-mode) ux_config_set safe_mode false; rm -f "$UX_STATE/safe_mode"; ux_webstate_update || true; echo 'Safe mode disabled.';; runtime) cmd_runtime; ux_webstate_update || true;; benchmark) echo 'Benchmark mode can only report metrics that are actually observable; use status/logs after a measured run.';; -h|--help|help|'') usage;; *) usage; exit 2;; esac
