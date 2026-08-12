@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "brand": "unrealX",
+  "author": "DREAM_WAS",
+  "github": "github.com/dreammwas",
+  "telegram": "https://t.me/uwEspresso",
+  "banner": {
+    "source": "assets/banner-source.jpg",
+    "runtime": "assets/banner.png",
+    "sha256": "cfde999e4377d7e6278e61f3627c4047a13ddcb8cde575e452fbf0e2f1553c20"
+  },
+  "emoji": {
+    "original_archive": "assets/emoji-original.zip",
+    "count": 10,
+    "registry": "assets/emoji/registry.json",
+    "webm_directory": "assets/emoji/",
+    "static_directory": "assets/emoji/static/"
+  }
+}
