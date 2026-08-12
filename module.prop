@@ -1,0 +1,10 @@
+id=unrealx
+author=DREAM_WAS | github.com/dreammwas | t.me/uwEspresso
+name=unrealX - Adaptive Visual Fidelity Engine
+version=1.0.0.0
+versionCode=1000003
+description=Hardware-aware graphics framework with adaptive performance, thermal safety, profiles, rollback and KernelSU WebUI. Author: DREAM_WAS | github.com/dreammwas | t.me/uwEspresso
+webuiIcon=assets/icon.png
+actionIcon=assets/icon.png
+banner=./banner.png
+icon=./icon.png
