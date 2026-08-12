@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "source": "user-supplied emoji.zip",
+  "format": "webm",
+  "roles": {
+    "success": {
+      "webm": "assets/emoji/emoji_00.webm",
+      "static": "assets/emoji-static/emoji_00.png",
+      "source": "CAACAgEAAxUAAWp0IZQ8XaLw5eFK4miVY5ppdyD7AALMBgACT7cwRaposfehCzsNPQQ.webm"
+    },
+    "friendly": {
+      "webm": "assets/emoji/emoji_01.webm",
+      "static": "assets/emoji-static/emoji_01.png",
+      "source": "CAACAgEAAxUAAWp0IZRB3ejsH9vUqj9XLZuX8BstAAJXCQACF5kwRad0j2D-Gb9XPQQ.webm"
+    },
+    "action": {
+      "webm": "assets/emoji/emoji_02.webm",
+      "static": "assets/emoji-static/emoji_02.png",
+      "source": "CAACAgEAAxUAAWp0IZSA9XckJgPPhj5skErKT-1dAAJiCAACFxUxRcZFPivdx8YIPQQ.webm"
+    },
+    "positive": {
+      "webm": "assets/emoji/emoji_03.webm",
+      "static": "assets/emoji-static/emoji_03.png",
+      "source": "CAACAgEAAxUAAWp0IZSyzzZFxSiVDi0JeQ4tCjsPAALIBgACJd85Red2P40pG1aWPQQ.webm"
+    },
+    "favorite": {
+      "webm": "assets/emoji/emoji_04.webm",
+      "static": "assets/emoji-static/emoji_04.png",
+      "source": "CAACAgEAAxUAAWp0IZT1O8VYxAShHtTLWYgyz6j1AALEBAACmeiBRF1FbwABkwjltD0E.webm"
+    },
+    "neutral": {
+      "webm": "assets/emoji/emoji_05.webm",
+      "static": "assets/emoji-static/emoji_05.png",
+      "source": "CAACAgEAAxUAAWp0IZT2jItfj95PkxrFr58Mh7HKAAKUBgACwgE5RaKN66O33gmhPQQ.webm"
+    },
+    "warning": {
+      "webm": "assets/emoji/emoji_06.webm",
+      "static": "assets/emoji-static/emoji_06.png",
+      "source": "CAACAgEAAxUAAWp0IZTGWC1jlVHYD19HB2uiOl70AAJRBwACU2KBRIpNg-qeyyaZPQQ.webm"
+    },
+    "celebration": {
+      "webm": "assets/emoji/emoji_07.webm",
+      "static": "assets/emoji-static/emoji_07.png",
+      "source": "CAACAgEAAxUAAWp0IZTamk5b_TR6CAqJttkwH3RvAAIVBwACj1wwRcIz5MJpDnR1PQQ.webm"
+    },
+    "info": {
+      "webm": "assets/emoji/emoji_08.webm",
+      "static": "assets/emoji-static/emoji_08.png",
+      "source": "CAACAgEAAxUAAWp0IZTjtW1Cpaw9lqgAAm5uUnxJAAIXBwAC9lJ5RM45-yblAr_iPQQ.webm"
+    },
+    "error": {
+      "webm": "assets/emoji/emoji_09.webm",
+      "static": "assets/emoji-static/emoji_09.png",
+      "source": "CAACAgEAAxUAAWp0IZTuAAEDyC43ea-dEMHyjHtQrgAC9AYAAn6UeERyt8XXZZ_heD0E.webm"
+    }
+  }
+}
