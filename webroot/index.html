@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#08090a">
+<title>unrealX</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+<header>
+  <div class="brand-wrap">
+    <img class="brand-banner" src="assets/banner.png" alt="unrealX branding">
+    <div>
+      <div class="brand">unrealX</div>
+      <div class="sub">Adaptive Visual Fidelity Engine</div>
+    </div>
+  </div>
+  <div class="version">v1.0.0.0</div>
+</header>
+
+<main>
+<section class="hero card">
+  <div class="eyebrow">DEVICE STATUS</div>
+  <div class="hero-row">
+    <div>
+      <h1 id="stateTitle">Loading safe state</h1>
+      <p class="muted">REALISTIC WHEN POSSIBLE. PERFORMANCE WHEN NEEDED. SAFETY ALWAYS.</p>
+    </div>
+    <video id="statusEmoji" class="status-emoji" autoplay loop muted playsinline aria-label="unrealX status"></video>
+  </div>
+  <div class="metrics" id="metrics"></div>
+</section>
+
+<section class="grid">
+  <div class="card">
+    <div class="title">Graphics profile</div>
+    <div class="seg" id="profiles"></div>
+  </div>
+  <div class="card">
+    <div class="title">Adaptive state</div>
+    <div id="adaptive" class="big">UNKNOWN</div>
+    <p class="muted">Only verified capabilities may be changed.</p>
+  </div>
+  <div class="card">
+    <div class="title">Root manager</div>
+    <div id="root" class="big">UNKNOWN</div>
+    <p class="muted">Manager-agnostic lifecycle detection.</p>
+  </div>
+  <div class="card">
+    <div class="title">Thermal</div>
+    <div id="thermal" class="big">UNKNOWN</div>
+    <p id="temp" class="muted">Not available</p>
+  </div>
+</section>
+
+<section class="card">
+  <div class="title">Device details</div>
+  <div class="details" id="details"></div>
+</section>
+
+<section class="card">
+  <div class="title">Quick actions</div>
+  <div class="actions">
+    <button data-cmd="status">Refresh status</button>
+    <button data-cmd="doctor">Run doctor</button>
+    <button data-cmd="runtime">Adaptive pass</button>
+    <button data-cmd="safe-mode">Safe mode</button>
+  </div>
+  <pre id="out" aria-live="polite"></pre>
+</section>
+</main>
+
+<footer>DREAM_WAS · github.com/dreammwas · t.me/uwEspresso</footer>
+</div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

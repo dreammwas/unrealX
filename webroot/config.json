@@ -1,0 +1,14 @@
+{
+  "modId": "unrealx",
+  "title": "unrealX",
+  "icon": "assets/banner.png",
+  "windowResize": true,
+  "backHandler": true,
+  "exitConfirm": false,
+  "pullToRefresh": true,
+  "historyFallback": true,
+  "historyFallbackFile": "index.html",
+  "autoStatusBarsStyle": true,
+  "caching": true,
+  "cachingMaxAge": 86400
+}
